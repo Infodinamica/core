@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/Infodinamica/exportable/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Infodinamica/core</projectUrl> 
+    <iconUrl>https://es.gravatar.com/userimage/101034715/cc029f93b4ab6e5c7e263d8db6b35b3a.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Se agrega clase Tuple para ser usada en .NET 3.5</releaseNotes>
+    <copyright>Copyright © 2016 Infodinamica Limitada</copyright>
+    <tags>Framework Infodinamica Core Tuple NET3.5 .NET3.5</tags>
+  </metadata>
+</package>

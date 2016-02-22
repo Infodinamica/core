@@ -38,6 +38,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\Common\StringMethods.cs" />
+    <Compile Include="Extensions\Reflection\PropertyInfoMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Types\Tuple.cs" />
   </ItemGroup>

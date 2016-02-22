@@ -11,8 +11,8 @@
     <iconUrl>https://es.gravatar.com/userimage/101034715/cc029f93b4ab6e5c7e263d8db6b35b3a.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Se agrega clase Tuple para ser usada en .NET 3.5</releaseNotes>
+    <releaseNotes>Extensions method IsNullOrWhiteSpace (string) y varios métodos útiles para propertyIndfo, como IsBoolean(), IsNumeric(), etc.</releaseNotes>
     <copyright>Copyright © 2016 Infodinamica Limitada</copyright>
-    <tags>Framework Infodinamica Core Tuple NET3.5 .NET3.5</tags>
+    <tags>Framework Infodinamica Core Tuple NET3.5 .NET3.5 PropertyInfo Reflection IsNumeric IsBoolean IsDate IsNullable</tags>
   </metadata>
 </package>

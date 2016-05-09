@@ -2,3 +2,5 @@ E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\bin\D
 E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\bin\Debug\Infodinamica.Framework.Core.pdb
 E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\obj\Debug\Infodinamica.Framework.Core.dll
 E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\obj\Debug\Infodinamica.Framework.Core.pdb
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\bin\Debug\Infodinamica.Framework.Core.XML
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\obj\Debug\Infodinamica.Framework.Core.csprojResolveAssemblyReference.cache

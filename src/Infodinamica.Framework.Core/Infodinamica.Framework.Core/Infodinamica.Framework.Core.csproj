@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Extensions\Common\StringMethods.cs" />
     <Compile Include="Extensions\IO\StreamMethods.cs" />
+    <Compile Include="Extensions\Reflection\ObjectMethods.cs" />
     <Compile Include="Extensions\Reflection\PropertyInfoMethods.cs" />
     <Compile Include="Helpers\CastHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

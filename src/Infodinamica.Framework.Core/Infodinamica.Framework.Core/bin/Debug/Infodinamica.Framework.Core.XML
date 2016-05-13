@@ -29,6 +29,26 @@
             <param name="input">Stream a copiar</param>
             <param name="output">Stream con los dos datos copiados</param>
         </member>
+        <member name="M:Infodinamica.Framework.Core.Extensions.IO.StreamMethods.CastToByteArray(System.IO.Stream)">
+            <summary>
+            Permite castear un stream a un vector de byte
+            </summary>
+            <param name="stream">Stream a castear</param>
+            <returns>Retorna un vector de byte del stream casteado</returns>
+        </member>
+        <member name="T:Infodinamica.Framework.Core.Extensions.Reflection.ObjectMethods">
+            <summary>
+            Extensiones para objetos
+            </summary>
+        </member>
+        <member name="M:Infodinamica.Framework.Core.Extensions.Reflection.ObjectMethods.CastToType(System.Object,System.Type)">
+            <summary>
+            Permite castear a un tipo de dato específico
+            </summary>
+            <param name="value">Valor a castear</param>
+            <param name="destinationType">Tipo de dato resultante del casteo</param>
+            <returns>Objeto del tipo ingresado. Retorna un objeto, por lo cual debe ser nuevamente casteado</returns>
+        </member>
         <member name="T:Infodinamica.Framework.Core.Extensions.Reflection.TypeMethods">
             <summary>
             Métodos para obtener información en tiempo de ejecución de una clase determinada

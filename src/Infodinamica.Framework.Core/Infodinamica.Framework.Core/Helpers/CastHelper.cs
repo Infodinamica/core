@@ -21,7 +21,7 @@ namespace Infodinamica.Framework.Core.Helpers
         /// <param name="value">Valor a castear</param>
         /// <param name="destinationType">Tipo de dato resultante del casteo</param>
         /// <returns>Objeto del tipo ingresado. Retorna un objeto, por lo cual debe ser nuevamente casteado</returns>
-        public static object CastToType(this object value, Type destinationType)
+        public static object CastToType(object value, Type destinationType)
         {
             Array valueAsArray = value as Array;
             if (valueAsArray != null)
@@ -92,7 +92,7 @@ namespace Infodinamica.Framework.Core.Helpers
         /// </summary>
         /// <param name="stream">Stream a castear</param>
         /// <returns>Retorna un vector de byte del stream casteado</returns>
-        public static byte[] CastToByteArray(this Stream stream)
+        public static byte[] CastToByteArray(Stream stream)
         {
             byte[] data;
             try

@@ -5,3 +5,4 @@ E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Test\bin\D
 E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Test\obj\Debug\Infodinamica.Framework.Test.csprojResolveAssemblyReference.cache
 E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Test\obj\Debug\Infodinamica.Framework.Test.dll
 E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Test\obj\Debug\Infodinamica.Framework.Test.pdb
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Test\bin\Debug\Infodinamica.Framework.Core.xml

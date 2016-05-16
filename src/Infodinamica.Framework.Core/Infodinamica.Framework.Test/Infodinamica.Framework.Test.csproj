@@ -55,10 +55,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Testing\TestTuple.cs" />
+    <Compile Include="Testing\ReflectionHelperMethodTester.cs" />
+    <Compile Include="Testing\ReflectionHelperClassTester.cs" />
+    <Compile Include="Testing\BaseMapperTester.cs" />
+    <Compile Include="Tools\DummyMapper.cs" />
+    <Compile Include="Tools\DummyObject.cs" />
+    <Compile Include="Tools\DummyPerson.cs" />
+    <Compile Include="Tools\DummyPerson2.cs" />
+    <Compile Include="Tools\DummyStaticObject.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tools\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Infodinamica.Framework.Core\Infodinamica.Framework.Core.csproj">
       <Project>{cb8b5637-03fc-4cf3-bdd8-324712592969}</Project>

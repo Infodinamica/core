@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // La información general sobre un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos atributos para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("Infodinamica.Framework.Core")]
-[assembly: AssemblyDescription("Métodos y utilidades base del framework")]
+[assembly: AssemblyTitle("Infodinamica.Framework.Core.Resources")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Infodinamica Limitada")]
-[assembly: AssemblyProduct("Infodinamica.Framework.Core")]
-[assembly: AssemblyCopyright("Copyright © 2016 Infodinamica Limitada")]
-[assembly: AssemblyTrademark("Infodinamica Core")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Infodinamica.Framework.Core.Resources")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Si establece ComVisible como false, los tipos de este ensamblado no estarán visibles 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como identificador de typelib si este proyecto se expone a COM
-[assembly: Guid("a3b411f5-8f73-42ff-8a03-78f0d07b0e26")]
+[assembly: Guid("1d1ba547-911d-4131-921e-3ff921d28505")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // Puede especificar todos los valores o establecer como predeterminados los números de compilación y de revisión 
 // mediante el carácter '*', como se muestra a continuación:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2.1.0.*")]
-[assembly: AssemblyFileVersion("2.1.0.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

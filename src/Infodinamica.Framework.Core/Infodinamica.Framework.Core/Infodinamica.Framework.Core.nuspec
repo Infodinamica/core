@@ -11,7 +11,7 @@
     <iconUrl>https://es.gravatar.com/userimage/101034715/cc029f93b4ab6e5c7e263d8db6b35b3a.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Se modifican namespaces del proyecto. Se incluye las clases que permiten administrar la paginación, para desacoplar el paquete Infodinamica.Framework.Repository cuando se esté utilizando en capas superiores (ASP, MVC, etc)</releaseNotes>
+    <releaseNotes>Se agrega un metodo de extension para diccionarios, que permite castear un diccionario en un listado de de objetos planos PlainItem</releaseNotes>
     <copyright>Copyright © 2016 Infodinamica Limitada</copyright>
     <tags>Framework Infodinamica Core Tuple NET3.5 .NET3.5 PropertyInfo Reflection IsNumeric IsBoolean IsDate IsNullable CurrentMethodName CurrentClassName ParentMethodName ParentClassName PagedList List Paged Paginable</tags>
   </metadata>

@@ -4,6 +4,21 @@
         <name>Infodinamica.Framework.Core</name>
     </assembly>
     <members>
+        <member name="T:Infodinamica.Framework.Core.Containers.PlainItem">
+            <summary>
+            Representa la información de un diccionario llave-valor
+            </summary>
+        </member>
+        <member name="P:Infodinamica.Framework.Core.Containers.PlainItem.Value">
+            <summary>
+            Valor de la opción
+            </summary>
+        </member>
+        <member name="P:Infodinamica.Framework.Core.Containers.PlainItem.Text">
+            <summary>
+            Texto de la opción
+            </summary>
+        </member>
         <member name="T:Infodinamica.Framework.Core.Extensions.Common.StringMethods">
             <summary>
             Métodos útiles para strings
@@ -15,6 +30,19 @@
             </summary>
             <param name="value">Valor a revisar</param>
             <returns>Retorna verdadero si la cadena está vacía, es nula o contiene solo espacios en blanco</returns>
+        </member>
+        <member name="T:Infodinamica.Framework.Core.Extensions.Dictionary.DictionaryMethods">
+            <summary>
+            Extensiones para diccionarios
+            </summary>
+        </member>
+        <member name="M:Infodinamica.Framework.Core.Extensions.Dictionary.DictionaryMethods.ToList``1(System.Collections.Generic.IDictionary{``0,System.String})">
+            <summary>
+            Transforma un diccionario en un listado de PlainItem
+            </summary>
+            <typeparam name="T">Tipo de dato a castear</typeparam>
+            <param name="source">Diccionario a castear</param>
+            <returns>Listado de PlainItem</returns>
         </member>
         <member name="T:Infodinamica.Framework.Core.Extensions.IO.StreamMethods">
             <summary>

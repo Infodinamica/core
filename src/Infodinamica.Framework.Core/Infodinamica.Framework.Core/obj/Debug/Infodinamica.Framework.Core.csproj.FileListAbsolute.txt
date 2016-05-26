@@ -5,3 +5,4 @@ E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\obj\D
 E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\bin\Debug\Infodinamica.Framework.Core.XML
 E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\obj\Debug\Infodinamica.Framework.Core.Resources.ErrorMessages.resources
 E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\obj\Debug\Infodinamica.Framework.Core.csproj.GenerateResource.Cache
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\obj\Debug\Infodinamica.Framework.Core.csprojResolveAssemblyReference.cache

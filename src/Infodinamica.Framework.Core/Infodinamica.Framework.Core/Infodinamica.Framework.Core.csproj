@@ -39,7 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Containers\PlainItem.cs" />
     <Compile Include="Extensions\Common\StringMethods.cs" />
+    <Compile Include="Extensions\Dictionary\DictionaryMethods.cs" />
     <Compile Include="Extensions\IO\StreamMethods.cs" />
     <Compile Include="Extensions\Reflection\ObjectMethods.cs" />
     <Compile Include="Extensions\Reflection\PropertyInfoMethods.cs" />

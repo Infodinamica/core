@@ -1,30 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace Infodinamica.Framework.Core.Types
+namespace Infodinamica.Framework.Core.Exceptions
 {
     /// <summary>
-    /// Clase base para construcción de excepciones
+    /// Error estandar de las aplicaciones
     /// </summary>
-    public abstract class BaseException : Exception, IException
+    public class CustomException: BaseException
     {
-        public bool NeedBeLogged { get; protected set; }
-        public bool HaveDataErrors
-        {
-            get
-            {
-                if (base.Data == null || base.Data.Count < 1)
-                    return false;
-                return true;
-            }
-        }
-
         /// <summary>
         /// Constructor. Se asume que el error DEBE ser logeado
         /// </summary>
-        public BaseException() : base()
+        public CustomException() : base()
         {
             NeedBeLogged = true;
         }
@@ -33,7 +19,7 @@ namespace Infodinamica.Framework.Core.Types
         /// Constructor
         /// </summary>
         /// <param name="needBeLogged">Indica si el error debe ser logeado</param>
-        public BaseException(bool needBeLogged) : base()
+        public CustomException(bool needBeLogged) : base()
         {
             NeedBeLogged = needBeLogged;
         }
@@ -42,7 +28,7 @@ namespace Infodinamica.Framework.Core.Types
         /// Constructor. Se asume que el error DEBE ser logeado
         /// </summary>
         /// <param name="message">Mensaje del error</param>
-        public BaseException(string message) : base(message)
+        public CustomException(string message) : base(message)
         {
             NeedBeLogged = true;
         }
@@ -52,7 +38,7 @@ namespace Infodinamica.Framework.Core.Types
         /// </summary>
         /// <param name="needBeLogged">Indica si el error debe ser logeado</param>
         /// <param name="message">Mensaje del error</param>
-        public BaseException(bool needBeLogged, string message) : base(message)
+        public CustomException(bool needBeLogged, string message) : base(message)
         {
             NeedBeLogged = needBeLogged;
         }
@@ -62,7 +48,7 @@ namespace Infodinamica.Framework.Core.Types
         /// </summary>
         /// <param name="message">Mensaje del error</param>
         /// <param name="innerException">Excepción hija</param>
-        public BaseException(string message, Exception innerException) : base(message, innerException)
+        public CustomException(string message, Exception innerException) : base(message, innerException)
         {
             NeedBeLogged = true;
         }
@@ -73,14 +59,9 @@ namespace Infodinamica.Framework.Core.Types
         /// <param name="needBeLogged">Indica si el error debe ser logeado</param>
         /// <param name="message">Mensaje del error</param>
         /// <param name="innerException">Excepción hija</param>
-        public BaseException(bool needBeLogged, string message, Exception innerException) : base(message, innerException)
+        public CustomException(bool needBeLogged, string message, Exception innerException) : base(message, innerException)
         {
             NeedBeLogged = needBeLogged;
-        }
-
-        public void AddModelError(string key, string message)
-        {
-            Data.Add(key, message);
         }
 
     }

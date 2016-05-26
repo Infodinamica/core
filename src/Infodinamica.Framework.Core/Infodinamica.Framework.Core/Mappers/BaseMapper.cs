@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using Infodinamica.Framework.Core.Exceptions;
 using Infodinamica.Framework.Core.Helpers;
 using Infodinamica.Framework.Core.Resources;
 
-namespace Infodinamica.Framework.Core.Types
+namespace Infodinamica.Framework.Core.Mappers
 {
     /// <summary>
     /// Clase base para el mapeo de objetos

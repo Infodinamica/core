@@ -2,7 +2,7 @@
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
-using Infodinamica.Framework.Core.Types;
+using Infodinamica.Framework.Core.Containers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Infodinamica.Framework.Test.Testing

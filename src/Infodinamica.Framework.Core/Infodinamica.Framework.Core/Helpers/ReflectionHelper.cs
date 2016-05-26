@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
-using Infodinamica.Framework.Core.Types;
+using Infodinamica.Framework.Core.Exceptions;
 
 namespace Infodinamica.Framework.Core.Helpers
 {

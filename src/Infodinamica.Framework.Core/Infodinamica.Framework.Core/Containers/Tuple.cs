@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Infodinamica.Framework.Core.Types
+﻿namespace Infodinamica.Framework.Core.Containers
 {
     /// <summary>
     /// Tuple para .NET 3.5

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Infodinamica.Framework.Core.Types;
+using Infodinamica.Framework.Core.Mappers;
 
 namespace Infodinamica.Framework.Test.Tools
 {

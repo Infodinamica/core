@@ -1,0 +1,7 @@
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Test\bin\Release 4.0\Infodinamica.Framework.Test.dll
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Test\bin\Release 4.0\Infodinamica.Framework.Test.pdb
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Test\bin\Release 4.0\Infodinamica.Framework.Core.dll
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Test\bin\Release 4.0\Infodinamica.Framework.Core.pdb
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Test\obj\Release 4.0\Infodinamica.Framework.Test.csprojResolveAssemblyReference.cache
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Test\obj\Release 4.0\Infodinamica.Framework.Test.dll
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Test\obj\Release 4.0\Infodinamica.Framework.Test.pdb

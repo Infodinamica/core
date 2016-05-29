@@ -1,0 +1,8 @@
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\bin\Release 3.5\Infodinamica.Framework.Core.dll
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\bin\Release 3.5\Infodinamica.Framework.Core.pdb
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\obj\Release 3.5\Infodinamica.Framework.Core.Resources.ErrorMessages.resources
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\obj\Release 3.5\Infodinamica.Framework.Core.csproj.GenerateResource.Cache
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\obj\Release 3.5\Infodinamica.Framework.Core.dll
+E:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\obj\Release 3.5\Infodinamica.Framework.Core.pdb
+e:\github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\obj\Release 3.5\Infodinamica.Framework.Core.csprojResolveAssemblyReference.cache
+e:\Github\core\src\Infodinamica.Framework.Core\Infodinamica.Framework.Core\bin\Release 3.5\Infodinamica.Framework.Core.XML

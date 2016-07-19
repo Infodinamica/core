@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Infodinamica.Framework.Core.Exceptions
 {
@@ -78,6 +80,18 @@ namespace Infodinamica.Framework.Core.Exceptions
         public void AddModelError(string key, string message)
         {
             Data.Add(key, message);
+        }
+
+        public override string ToString()
+        {
+            var currentMessage = this.Message;
+
+            //Por cada detalle en el diccionario, se agrega en el mensaje final
+            if(this.Data != null)
+                foreach (DictionaryEntry entry in this.Data)
+                    currentMessage += string.Format("{0}{1}: {2}", Environment.NewLine, entry.Key, entry.Value);
+
+            return currentMessage;
         }
 
     }

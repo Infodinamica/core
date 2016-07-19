@@ -11,7 +11,7 @@
     <iconUrl>https://es.gravatar.com/userimage/101034715/cc029f93b4ab6e5c7e263d8db6b35b3a.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Se incluye una versión para el framework 4.0. Se agrega un helper que permite obtener: diccionario con los valores y nombres de los elementos del Enum, diccionario con los valores y display (DisplayAttribute de System.ComponentModel.DataAnnotations) de los elementos del Enum.</releaseNotes>
+    <releaseNotes>Se sobreescribe el método ToString de BaseException para logear también el detalle del Exception</releaseNotes>
     <copyright>Copyright © 2016 Infodinamica Limitada</copyright>
     <tags>Framework Infodinamica Core Tuple NET3.5 .NET3.5 PropertyInfo Reflection IsNumeric IsBoolean IsDate IsNullable CurrentMethodName CurrentClassName ParentMethodName ParentClassName PagedList List Paged Paginable DisplayAttribute Enum</tags>
   </metadata>

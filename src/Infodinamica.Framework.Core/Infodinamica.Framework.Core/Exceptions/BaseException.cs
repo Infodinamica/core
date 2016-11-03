@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Infodinamica.Framework.Core.Exceptions
 {
@@ -10,6 +11,9 @@ namespace Infodinamica.Framework.Core.Exceptions
     public abstract class BaseException : Exception, IException
     {
         public bool NeedBeLogged { get; protected set; }
+        
+        public IList<Exception> InnerExceptions { get; private set; }
+
         public bool HaveDataErrors
         {
             get
@@ -26,6 +30,7 @@ namespace Infodinamica.Framework.Core.Exceptions
         public BaseException() : base()
         {
             NeedBeLogged = true;
+            InnerExceptions = new List<Exception>();
         }
 
         /// <summary>
@@ -91,7 +96,21 @@ namespace Infodinamica.Framework.Core.Exceptions
                 foreach (DictionaryEntry entry in this.Data)
                     currentMessage += string.Format("{0}{1}: {2}", Environment.NewLine, entry.Key, entry.Value);
 
+            //Por cada excepción en la colección de excepciones
+            var index = 1;
+            if(this.InnerExceptions != null && this.InnerExceptions.Any())
+                foreach (var ex in InnerExceptions)
+                {
+                    currentMessage += string.Format("{0}{0}Inner Exception {1}: {2}", Environment.NewLine, index, ex.ToString());
+                    index++;
+                }
+
             return currentMessage;
+        }
+
+        public void AddInnerException(Exception ex)
+        {
+            this.InnerExceptions.Add(ex);
         }
 
     }

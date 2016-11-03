@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Infodinamica.Framework.Core.Exceptions
 {

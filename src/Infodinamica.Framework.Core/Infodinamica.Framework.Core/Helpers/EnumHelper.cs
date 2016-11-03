@@ -57,10 +57,21 @@ namespace Infodinamica.Framework.Core.Helpers
         public static string GetDisplayValue<T>(T value)
         {
             var fieldInfo = value.GetType().GetField(value.ToString());
-
             var descriptionAttributes = fieldInfo.GetCustomAttributes(typeof(DisplayAttribute), false) as DisplayAttribute[];
 
-            if (descriptionAttributes == null) return string.Empty;
+            if (descriptionAttributes == null || descriptionAttributes[0] == null) return string.Empty;
+
+            if(descriptionAttributes[0].ResourceType != null)
+            {
+                var property = descriptionAttributes[0].ResourceType.GetProperty(value.ToString());
+                if(property != null)
+                {
+                    var resourceValue = property.GetValue(property, null);
+                    if(resourceValue != null && !string.IsNullOrWhiteSpace(resourceValue.ToString()))
+                        return resourceValue.ToString();
+                }
+            }
+
             return (descriptionAttributes.Length > 0) ? descriptionAttributes[0].Name : value.ToString();
         }
 #endif

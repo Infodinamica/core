@@ -11,7 +11,7 @@
     <iconUrl>https://es.gravatar.com/userimage/101034715/cc029f93b4ab6e5c7e263d8db6b35b3a.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Se sobreescribe el método ToString de BaseException para logear también el detalle del Exception</releaseNotes>
+    <releaseNotes>Ahora si existe en el enum un DisplayName asociado a un recurso, muestra el nombre configurado en el recurso</releaseNotes>
     <copyright>Copyright © 2016 Infodinamica Limitada</copyright>
     <tags>Framework Infodinamica Core Tuple NET3.5 .NET3.5 PropertyInfo Reflection IsNumeric IsBoolean IsDate IsNullable CurrentMethodName CurrentClassName ParentMethodName ParentClassName PagedList List Paged Paginable DisplayAttribute Enum</tags>
   </metadata>
